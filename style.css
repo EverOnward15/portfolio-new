@@ -77,15 +77,24 @@ img {
 
 @media (max-width: 768px) {
   .navbar {
-  padding: 15px 10px;
+    display: flex;
+  padding: 15px 2.5px;
+      align-items: center;
+justify-content: center;
   }
 
   .logo img {
     width: 175px;
+    margin-left: 10px;
+  }
+
+  .nav-links {
+    margin-left: 30px;
   }
 
   .navbar a {
     font-size: larger;
+    margin-left: 10px;
   }
 }
 
@@ -277,7 +286,7 @@ section#services {
 }
 .services-grid {
   display: grid;
-  gap: 2rem;
+  gap: 4rem;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
 }
 .service-card {
