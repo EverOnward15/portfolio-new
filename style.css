@@ -316,6 +316,10 @@ section#services {
   .services-grid {
     grid-template-columns: 1fr;
   }
+
+  .service-card {
+    padding: 16px;
+  }
 }
 
 /* === Projects Section === */
