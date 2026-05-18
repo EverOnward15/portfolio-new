@@ -391,7 +391,7 @@ display: none;
   }
   .hero-text p {
     padding: 15px;
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 
   .hero-status {
@@ -543,7 +543,7 @@ section#about {
   }
 
   .about p {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
 
 
