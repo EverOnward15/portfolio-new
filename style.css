@@ -660,6 +660,7 @@ section#services {
 @media (max-width: 768px) {
   section#services {
     scroll-margin-top: 0px; /* fallback if no JS */
+  }
 
    .services-inner {
     width: 100%;
