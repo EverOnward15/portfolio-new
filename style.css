@@ -661,11 +661,26 @@ section#services {
   section#services {
     scroll-margin-top: 0px; /* fallback if no JS */
 
-  .services-subtitle {
-    max-width: 95%;
+   .services-inner {
+    width: 100%;
 
-    padding: 0 0.5rem;
+    max-width: 100%;
+
+    padding: 0;
   }
+
+  .services-subtitle {
+    max-width: 100%;
+
+    width: 100%;
+
+    padding: 0 1rem;
+
+    text-align: center;
+
+    font-size: 1rem;
+
+    line-height: 1.7;
   }
   .services-grid {
     grid-template-columns: 1fr;
