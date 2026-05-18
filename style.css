@@ -660,6 +660,12 @@ section#services {
 @media (max-width: 768px) {
   section#services {
     scroll-margin-top: 0px; /* fallback if no JS */
+
+  .services-subtitle {
+    max-width: 95%;
+
+    padding: 0 0.5rem;
+  }
   }
   .services-grid {
     grid-template-columns: 1fr;
@@ -668,6 +674,7 @@ section#services {
   .service-card {
     padding: 16px;
   }
+
 }
 
 /* === Projects Section === */
