@@ -214,9 +214,10 @@ align-items: center;}
     gap: 0;
   }
 
-  .logo img {
-    width: 105px;
-  }
+.logo img {
+  width: 105px;
+  height: auto;
+}
 
   .nav-links {
     display: flex;
@@ -531,6 +532,11 @@ section#about {
   .about-text {
     margin-right: auto;
   }
+
+  .about-gif img {
+ max-width: 320px;
+height: auto;
+}
 }
 /* === Services Section === */
 .services {
